@@ -13,7 +13,7 @@ local function get_random_sentence()
     return sentences[randomIndex]
 end
 
-rpc.set_client_id("1234567891234567891")
+rpc.set_client_id("1234567891234567891") -- Replace with your own client id
 
 while true do
     local status = get_random_sentence()
