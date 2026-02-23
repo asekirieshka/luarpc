@@ -1,0 +1,30 @@
+:root {
+    --vp-c-bg: #1b1c29;
+    --vp-c-bg-soft: #242538;
+    --vp-c-bg-mute: #2d2e42;
+
+    --vp-c-brand-1: #7c66ff;
+    --vp-c-brand-2: #9685ff;
+    --vp-c-brand-3: #b0a4ff;
+    --vp-c-brand-soft: rgba(124, 102, 255, 0.14);
+
+    --vp-c-text-1: #e2e2e6;
+    --vp-c-text-2: #a5a5b1;
+}
+
+.VPButton.brand {
+    --vp-button-brand-border: var(--vp-c-brand-1);
+    --vp-button-brand-text: var(--vp-c-text-1);
+    --vp-button-brand-bg: var(--vp-c-brand-1);
+
+    --vp-button-brand-hover-border: var(--vp-c-brand-2);
+    --vp-button-brand-hover-text: var(--vp-c-text-1);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+}
+
+.VPHero .name {
+    background: linear-gradient(135deg, #7c66ff 0%, #b0a4ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
