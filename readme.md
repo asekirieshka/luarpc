@@ -10,6 +10,18 @@ customizable.
 
 ---
 
+## Installation
+
+The easiest way to install LuaRPC is via `go install`. This will automatically compile the binary
+and add it to your shell's PATH.
+
+```bash
+go install github.com/asekirieshka/luarpc@latest
+```
+
+> **Prerequisite:** Make sure you have [Go](https://go.dev/dl/) installed and your `$GOPATH/bin` (or
+> `%USERPROFILE%\go\bin` on Windows) is in your system's PATH.
+
 ## Simple as Lua
 
 ```lua
